@@ -1,0 +1,457 @@
+2022-05-24 Tetsumune KISO <t2mune@gmail.com>
+	* Release - version 2.2.0 released.
+
+2022-04-23 Tetsumune KISO <t2mune@gmail.com>
+	* Update - some key names.
+
+2022-04-17 Tetsumune KISO <t2mune@gmail.com>
+	* Update - the magic number in scripts of "examples".
+	* Update - BGP Well-known Communities.
+
+2022-04-16 Tetsumune KISO <t2mune@gmail.com>
+	* Fix - handling "AS4_PATH" in "mrt2bgpdump.py". Thank you GarrettChristian.
+
+2022-03-20 Tetsumune KISO <t2mune@gmail.com>
+	* Update - BGP Well-known Communities.
+
+2022-01-15 Tetsumune KISO <t2mune@gmail.com>
+	* Release - version 2.1.0 released.
+	* Update - convert a list with a value-name pair to dictionary.
+
+2022-01-10 Tetsumune KISO <t2mune@gmail.com>
+	* Fix - wrong index.
+
+2022-01-08 Tetsumune KISO <t2mune@gmail.com>
+	* Release - version 2.0.2 released.
+	* Update - resolved a value of BGP path attribute "ORIGIN".
+	* Update - copyright notices.
+
+2020-12-30 Tetsumune KISO <t2mune@gmail.com>
+	* Fix - fixed an incorrect key in "mrt2exabgp.py". Thank you mahmutaydin1.
+
+2020-11-16 Tetsumune KISO <t2mune@gmail.com>
+	* Fix - fixed ChangeLog.
+	* Release - version 2.0.1 released.
+
+2020-11-15 Tetsumune KISO <t2mune@gmail.com>
+	* Update - "examples/README.rst".
+	* Update - code optimization.
+
+2020-11-12 Tetsumune KISO <t2mune@gmail.com>
+	* Update - code optimization.
+	* Fix - fixed an refernce to a dictionary that does not exist.
+	* Fix - fixed an incorrect key in "mrt2bgpdump.py".
+	* Fix - fixed an incorrect key in "mrt2exabgp.py". Thank you nkukard.
+
+2020-11-08 Tetsumune KISO <t2mune@gmail.com>
+	* Fix - fixed typos. Thnak you for andre-luiz-dos-santos.
+
+2020-11-07 Tetsumune KISO <t2mune@gmail.com>
+	* Fix - fixed an incorrect key in unpack_as4_path(). Thank you giselle-briand and
+	andre-luiz-dos-santos.
+
+2020-09-22 Tetsumune KISO <t2mune@gmail.com>
+	* Release - version 2.0.0 released.
+	* Fix - print a next_hop twice in "mrt2exabgp.py".
+	* Update - don't print without a next_hop in "mrt2exabgp.py".
+	* Update - don't print a same prefix repeatedly in "mrt2exabgp.py".
+	* Update - print a footer if an error occurred in "mrt2exabgp.py".
+
+2020-05-05 Tetsumune KISO <t2mune@gmail.com>
+	* Update - updated "BGP_ATTR_T", "BGP_OPEN_ERR_SC", "BGP_CEASE_ERR_SC".
+
+2020-05-03 Tetsumune KISO <t2mune@gmail.com>
+	* Update - updated comments.
+
+2020-04-30 Tetsumune KISO <t2mune@gmail.com>
+	* Update - removed "Nlri.is_valid".
+
+2020-04-27 Tetsumune KISO <t2mune@gmail.com>
+	* Release - version 1.8 released.
+
+2020-04-26 Tetsumune KISO <t2mune@gmail.com>
+	* Update - updated a copyright notice.
+
+2020-04-24 Tetsumune KISO <t2mune@gmail.com>
+	* Fix - can't decode NLRI correctly in "BGP4MP_MESSAGE". Thank you Zahaib.
+
+2019-05-02 Tetsumune KISO <t2mune@gmail.com>
+	* Fix - can't handle "Extended Timestamp MRT Header" properly.
+	Thank you rodrigodalri.
+
+2019-01-08 Tetsumune KISO <t2mune@gmail.com>
+	* Release - version 1.7 released.
+
+2018-06-28 Tetsumune KISO <t2mune@gmail.com>
+	* Fix - SIGPIPE for Windows. Thank you salmacmpeg.
+
+2018-03-24 Tetsumune KISO <t2mune@gmail.com>
+	* Update - updated a copyright notice.
+
+2018-03-23 Tetsumune KISO <t2mune@gmail.com>
+	* Fix - fixed incorrect key and format used in "AS4_AGGREGATOR" of
+	"mrt2bgpdump.py". Thank you julian10m.
+
+2017-07-02 Tetsumune KISO <t2mune@gmail.com>
+	* Release - version 1.6 released.
+
+2017-03-05 Tetsumune KISO <t2mune@gmail.com>
+	* Fix - can't handle "MP_UNREACH_NLRI" properly in "print_all.py".
+
+2017-02-18 Tetsumune KISO <t2mune@gmail.com>
+	* Fix - can't display properly with "-a" option in "mrt2exabgp.py".
+	* Update - added "-s" option in "mrt2exabgp.py". Thank you andydavidson.
+
+2017-02-11 Tetsumune KISO <t2mune@gmail.com>
+	* Update - deleted all README-ja.rst.
+	* Update - replaced sample data.
+
+2017-01-29 Tetsumune KISO <t2mune@gmail.com>
+	* Update - code improvements.
+
+2017-01-23 Tetsumune KISO <t2mune@gmail.com>
+	* Update - README.rst, README-ja.rst.
+
+2017-01-22 Tetsumune KISO <t2mune@gmail.com>
+	* Update - initialization of attributes into the Base.__init__ method.
+	Thank you Martin A. Brown.
+
+2017-01-21 Tetsumune KISO <t2mune@gmail.com>
+	* Update - added a MRT subtype error.
+
+2017-01-19 Tetsumune KISO <t2mune@gmail.com>
+	* Update - added a support for draft-petrie-grow-mrt-add-paths.
+
+2017-01-17 Tetsumune KISO <t2mune@gmail.com>
+	* Update - updated "README.md", "README-ja.md" in "samples" directory.
+	* Update - updated a copyright notice.
+
+2017-01-16 Tetsumune KISO <t2mune@gmail.com>
+	* Fix - fix initialization of BgpAttr with Python 3. Thank you
+	vincentbernat.
+
+2016-12-10 Tetsumune KISO <t2mune@gmail.com>
+	* Release - version 1.5 released.
+	* Update - updated comments.
+
+2016-11-28 Tetsumune KISO <t2mune@gmail.com>
+	* Update - added a support for BGP path attribute "LARGE_COMMUNITY". Thank
+	you pierky.
+
+2016-05-07 Tetsumune KISO <t2mune@gmail.com>
+	* Fix - fixed typo.
+
+2016-04-03 Tetsumune KISO <t2mune@gmail.com>
+	* Update - added "-g" option in "mrt2exabgp.py". Thank you danielseide.
+	* Update - added a support for "BGP4MP" and "BGP4MP_ET" in
+	"mrt2exabgp.py". Thank you danielseide.
+
+2016-04-01 Tetsumune KISO <t2mune@gmail.com>
+	* Update - added a support for "TABLE_DUMP" in "mrt2exabgp.py". Thank you
+	danielseide.
+
+2016-03-29 Tetsumune KISO <t2mune@gmail.com>
+	* Update - added "-P" option in "mrt2exabgp.py". Thank you danielseide.
+
+2016-03-28 Tetsumune KISO <t2mune@gmail.com>
+	* Update - replaced "announce attribute" with "announce attributes" in
+	"mrt2exabgp.py". Thank you danielseide.
+
+2016-01-10 Tetsumune KISO <t2mune@gmail.com>
+	* Fix - can't install with pip command.
+
+2016-01-08 Tetsumune KISO <t2mune@gmail.com>
+	* Fix - can't install with distutils.
+
+2016-01-06 Tetsumune KISO <t2mune@gmail.com>
+	* Fix - undefined variable "buf" in method "unpack_attr_set" of class
+	"BgpAttr".
+	* Fix - too many arguments for method "val_num" of class "Base".
+	* Update - removed "Reserved" in some dictionaries.
+
+2015-12-31 Yoshiyuki YAMAUCHI <info@greenhippo.co.jp>
+	* Update - registered the mrtparse to PyPI.
+
+2015-12-10 Yoshiyuki YAMAUCHI <info@greenhippo.co.jp>
+	* Release - version 1.4 released. 
+
+2015-11-28 Tetsumune KISO <t2mune@gmail.com>
+	* Update - changed function name in class "Nlri" from "chk_dup" to
+	"is_dup".
+	* Update - changed function name in class "Nlri" from "validate" to
+	"is_valid".
+
+2015-11-12 Tetsumune KISO <t2mune@gmail.com>
+	* Update - added code and subcode of "ROUTE-REFRESH Message Error".
+
+2015-10-18 Tetsumune KISO <t2mune@gmail.com>
+	* Update - added "README.md", "README-ja.md" in "samples" directory.
+
+2015-10-15 Tetsumune KISO <t2mune@gmail.com>
+	* Update - added "samples" directory.
+
+2015-10-09 Tetsumune KISO <t2mune@gmail.com>
+	* Update - added "README.md", "README-ja.md" in "examples" directory.
+
+2015-10-09 Tetsumune KISO <t2mune@gmail.com>
+	* Update - added method "validate" in class "Nlri".
+
+2015-10-03 Tetsumune KISO <t2mune@gmail.com>
+	* Update - added attribute "buf" in class "Base".
+
+2015-09-27 Tetsumune KISO <t2mune@gmail.com>
+	* Update - changed dictionary name from "MSG_ST" to "MRT_ST".
+	* Fix - can't parse "PEER IP Address" in "TABLE_DUMP" properly when
+	subtype is "AFI_IPv6" and "PEER IP Address" is IPv4.
+
+2015-09-26 Tetsumune KISO <t2mune@gmail.com>
+	* Update - changed dictionary name from "MSG_T" to "MRT_T".
+	* Update - added some error messages.
+
+2015-09-23 Tetsumune KISO <t2mune@gmail.com>
+	* Update - changed output format of "Path Identifier" in "print_all.py".
+	* Update - added support for "RIB_GENERIC".
+	* Fix - can't parse path attribute "MP_REACH_NLRI" properly when included 
+	only the Next Hop Address Length and Next Hop Address fields.
+	(see RFC6396 section 4.3.4)
+
+2015-09-22 Tetsumune KISO <t2mune@gmail.com>
+	* Update - added function "prerror" to print invalid data in byte in
+	"print_all.py".
+	* Update - divided function "unpack" in class "Reader" into "unpack_hdr" 
+	and "unpack_data".
+	* Update - added attributes "err" and "err_msg" in class "Mrt".
+	* Update - added class "MrtFormatError".
+
+2015-09-21 Tetsumune KISO <t2mune@gmail.com>
+	* Update - added some AFI/SAFI numbers for L2VPN.
+
+2015-09-20 Tetsumune KISO <t2mune@gmail.com>
+	* Update - added a support for "ADD-PATH Capability". Thank you Dazul.
+	* Fix - a wrong BGP-ID format.
+
+2015-08-29 Tetsumune KISO <t2mune@gmail.com>
+	* Update - changed the type of AS_PATH segment value from str to list.
+	* Update - renamed the dictionary "AS_REP" to "AS_REPR".
+	* Update - renamed the function "as_rep()" to "as_repr()".
+	* Update - changed the order of conditions in some if statements.
+
+2015-08-23 Tetsumune KISO <t2mune@gmail.com>
+	* Update - added method "chk_buf" and "val_bytes" of class "Base".
+	* Update - changed arguments in method "val_addr" of class "Base" and
+	method "unpack" of class "Nlri".
+
+2015-08-09 Yoshiyuki Yamauchi <info@greenhippo.co.jp>
+	* Release - version 1.3 released. 
+
+2015-08-06 Tetsumune KISO <t2mune@gmail.com>
+	* Fix - a wrong AS4_PATH format in "mrt2bgpdump.py".
+
+2015-08-05 Tetsumune KISO <t2mune@gmail.com>
+	* Update - added "mrt2bgpdump.py".
+
+2015-08-01 Yoshiyuki Yamauchi <info@greenhippo.co.jp>
+	* Update - adding "__slots__".
+	* Fix - W0201 and C0326 warnings.
+	Thank you Fabian Raab.
+
+2015-07-05 Tetsumune KISO <t2mune@gmail.com>
+	* Update - replaced global variable "as_rep" with function "as_rep()".
+	* Update - replaced global variable "as_len" with function "as_len()".
+
+2015-07-04 Tetsumune KISO <t2mune@gmail.com>
+	* Bugfix - refer to the attribute that don't exist.
+
+2015-07-01 Tetsumune KISO <t2mune@gmail.com>
+	* Update - added ".gitignore".
+	* Update - change the option in "slice.py".
+
+2015-06-28 Tetsumune KISO <t2mune@gmail.com>
+	* Update - removed "val_dict" in "summary.py".
+
+2015-06-28 Yoshiyuki Yamauchi <info@greenhippo.co.jp>
+	* Update - replaced "val_dict" by using a collections module.
+	Thank you Fabian Raab.
+
+2015-06-22 Yoshiyuki Yamauchi <info@greenhippo.co.jp>
+	* Update - added the option to use the ExaBGP API.
+	* Update - changed the file name from "exabgp_conf.py" to "mrt2exabgp.py".
+	* Update - README.md, README-ja.md
+	Thank you Thomas Mangin.
+
+2015-06-22 Fabian Raab <fabian.raab@tum.de>
+	* dl += [AFI_T] BUGFIX
+
+2015-05-10 Tetsumune KISO <t2mune@gmail.com>
+	* Update - added a support for BGP path attribute "AIGP" in
+	"exabgp_conf.py".
+	* Update - changed command line options in "exabgp_conf.py".
+
+2015-05-04 Yoshiyuki Yamauchi <info@greenhippo.co.jp>
+	* Release - version 1.2 released. 
+
+2015-05-04 Tetsumune KISO <t2mune@gmail.com>
+	* Bugfix - can't handle flags properly in "exabgp_conf.py".
+
+2015-05-03 Tetsumune KISO <t2mune@gmail.com>
+	* Update - changed command line options in "slice.py".
+	* Update - added command line options in "exabgp_conf.py".
+
+2015-05-02 Yoshiyuki Yamauchi <info@greenhippo.co.jp>
+	* Update - added next hop of ipv6 link local addresses.
+
+2015-04-01 Tetsumune KISO <t2mune@gmail.com>
+	* Update - added a support for BGP path attribute "AIGP" in "mrtparse.py",
+	"print_all.py".
+
+2015-01-20 Yoshiyuki Yamauchi <info@greenhippo.co.jp>
+	* Update - update "README.md", "README-ja.md".
+
+2015-01-04 Tetsumune KISO <t2mune@gmail.com>
+	* Update - added "summary.py".
+
+2014-12-30 Tetsumune KISO <t2mune@gmail.com>
+	* Update - added "slice.py".
+	* Change - changed returned object from "self.mrt" to "self" in def
+	__iter__ of class Reader
+
+2014-12-28 Yoshiyuki Yamauchi <info@greenhippo.co.jp>
+	* Release - version 1.1 released. 
+
+2014-12-27 Tetsumune KISO <t2mune@gmail.com>
+	* Update - added a support for IPv6 in "exabgp_conf.py".
+	* Bugfix - can't parse default route properly in "mrtparse.py".
+
+2014-06-24 Tetsumune KISO <t2mune@gmail.com>
+	* Update - improved codes in "mrtparse.py".
+
+2014-04-20 Tetsumune KISO <t2mune@gmail.com>
+	* Update - state the Apache license 2.0 explicitly.
+
+2014-04-17 Tetsumune KISO <t2mune@gmail.com>
+	* Bugfix - can't display BGP attribute "MP_REACH_NLRI" in "print_all.py",
+	which have unknown AFI, SAFI.
+
+2014-04-16 Tetsumune KISO <t2mune@gmail.com>
+	* Bugfix - can't parse a prefix using python3 in "mrtparse.py".
+
+2014-04-03 Tetsumune KISO <t2mune@gmail.com>
+	* Update - improved codes in "mrtparse.py".
+
+2014-03-29 Tetsumune KISO <t2mune@gmail.com>
+	* Update - improved codes in "mrtparse.py".
+
+2014-03-28 Tetsumune KISO <t2mune@gmail.com>
+	* Update - added a attribute to save a binary data in "mrtparse.py".
+
+2014-03-21 Tetsumune KISO <t2mune@gmail.com>
+	* Update - added a support for PyPy.
+	* Update - improved codes in "print_all.py".
+
+2014-03-18 Tetsumune KISO <t2mune@gmail.com>
+	* Update - added attributes "as4_path" and "as4_aggr".
+	* Update - improved codes.
+
+2014-03-13 Tetsumune KISO <t2mune@gmail.com>
+	* Bugfix - invalid object "asl_len" in "mrtparse.py".
+	* Update - improved codes in "exabgp_conf.py".
+
+2014-03-12 Tetsumune KISO <t2mune@gmail.com>
+	* Update - added function "unpack_l3vpn" in class "Nlri" of "mrtparse.py".
+
+2014-03-10 Tetsumune KISO <t2mune@gmail.com>
+	* Bugfix - can't parse and display "Data" properly in BGP notification message.
+
+2014-03-09 Tetsumune KISO <t2mune@gmail.com>
+	* Update - changed codes in function "val_num" of "mrtparse.py".
+
+2014-03-08 Tetsumune KISO <t2mune@gmail.com>
+	* Update - improved codes.
+
+2014-03-06 Tetsumune KISO <t2mune@gmail.com>
+	* Update - added a support for BGP attribute "ATTR_SET".
+	* Update - added a support for SAFI 128, 129.
+
+2014-03-03 Tetsumune KISO <t2mune@gmail.com>
+	* Update - merged the code for SIGPIPE from Jay B.
+	* Update - added a support for display unrecognized path attributes(suggested by Jay B).
+
+2014-03-02 Nobuhiro ITOU <js333123@gmail.com>
+	* Update - changed default representaion from "asdot" to "asplain"(Defined by RFC5396). 
+	Thank you Jay B.
+
+2014-02-27 Tetsumune KISO <t2mune@gmail.com>
+	* Bugfix - can't parse NLRI in BGP update message. Thank you Jay Borkenhagen.
+
+2014-02-23 Yoshiyuki YAMAUCHI <info@greenhippo.co.jp>
+	* Release - version 1.0 released.
+	* Update - update "README.md", "README-ja.md".
+
+2014-02-23 Tetsumune KISO <t2mune@gmail.com>
+	* Bugfix - fixed a script "exabgp.py".
+
+2014-02-22 Nobuhiro ITOU<js333123@gmail.com>
+	* Release - version 0.9 released.
+	* Update - added a support for BGP Message "Route-Refresh".
+
+2014-02-22 Tetsumune KISO <t2mune@gmail.com>
+	* Update - improved codes.
+
+2014-02-17 Yoshiyuki Yamauchi <info@greenhippo.co.jp>
+	* Release - version 0.8 released.
+	* Update - added a support for BGP Message "OPEN", "NOTIFICATION" and "KEEPALIVE".
+
+2014-02-11 Tetsumune KISO <t2mune@gmail.com>
+	* Update - added "Clearing" and "Deleted" states in "BGP_FSM".
+
+2014-02-10 Tetsumune KISO <t2mune@gmail.com>
+	* Bugfix - fixed a format "MSG_T".
+
+2014-02-09 Tetsumune KISO <t2mune@gmail.com>
+	* Release - version 0.7 released.
+	* Update - added a support for python3.
+
+2014-02-08 Tetsumune KISO <t2mune@gmail.com>
+	* Release - version 0.6 released.
+	* Update - added a support for a "MP_REACH_NLRI", "MP_UNREACH_NLRI" attribute.
+
+2014-02-05 Tetsumune KISO <t2mune@gmail.com>
+	* Release - version 0.5 released.
+	* Update - added the ability to be passed a filename as an argument of class "Reader"
+	as well as file objects.
+	* Bugfix - can't parse a "EXTENDED_COMMUNITES" attribute correctly.
+	* Update - changed a format of BGP attribute objects.
+
+2014-02-04 Tetsumune KISO <t2mune@gmail.com>
+	* Update - added a support for a "EXTENDED_COMMUNITIES" attribute.
+
+2014-02-02 Tetsumune KISO <t2mune@gmail.com>
+	* Release - version 0.4 released.
+	* Update - added a dictionaries to convert from a number to a string, and
+	vice versa.
+	* Update - updated an example script "print_all.py".
+
+2014-01-30 Tetsumune KISO <t2mune@gmail.com>
+	* Update - added method val_asn in class Base to support a 4-byte
+	ASN format "x.y".
+
+2014-01-27 Tetsumune KISO <t2mune@gmail.com>
+	* Release - version 0.3 released.
+	* Update - added class Bgp4Mp, BgpMessage and Nlri.
+
+2014-01-25 Tetsumune KISO <t2mune@gmail.com>
+	* Update - added methods for each data type in class Base.
+
+2014-01-23 Tetsumune KISO <t2mune@gmail.com>
+	* Bugfix - IGP and EGP are in reverse.
+	* Update - added methods for each adttribute in class BGPAttr.
+
+2014-01-21 Tetsumuned KISO <t2mune@gmail.com>
+	* Release - version 0.2 released.
+	* New - created setup.py, ChangeLog.
+	* Update - a module name changed mrtparse from mrtdump.
+	* Update - placed all instances of MRT padyload class under self.mrt, 
+	to make it easy to initialize them in a loop of class Reader.
+
+2014-01-19 Tetsumune KISO <t2mune@gmail.com>
+	* Release - version 0.1 released.
